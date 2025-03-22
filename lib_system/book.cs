@@ -21,7 +21,7 @@ namespace lib_system
 
         private void book_Load(object sender, EventArgs e)
         {
-            
+            Book_lib();
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -47,12 +47,9 @@ namespace lib_system
 
         private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
-
+            
         }
 
-        private void button1_Click_1(object sender, EventArgs e)
-        {
-            Book_lib();
-        }
+        
     }
 }

@@ -39,14 +39,21 @@ namespace lib_system
 
         }
        
-        private void button1_Click(object sender, EventArgs e)
-        {
-            Author_lib();
-        }
+        
 
         private void label1_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void author_Load(object sender, EventArgs e)
+        {
+            Author_lib();
+        }
+
+        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+            
         }
     }
 }
